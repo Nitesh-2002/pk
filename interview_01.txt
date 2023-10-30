@@ -1,0 +1,150 @@
+1. What do you understand by Natural Language Processing?
+Natural Language Processing is a field of computer science that deals with communication between computer systems and humans. It is a technique used in Artificial Intelligence and Machine Learning. It is used to create automated software that helps understand human-spoken languages to extract useful information from the data. Techniques in NLP allow computer systems to process and interpret data in the form of natural languages.
+2. List any two real-life applications of Natural Language Processing.
+Two real-life applications of Natural Language Processing are as follows:
+
+Google Translate: Google Translate is one of the famous applications of Natural Language Processing. It helps convert written or spoken sentences into any language. Also, we can find the correct pronunciation and meaning of a word by using Google Translate. It uses advanced techniques of Natural Language Processing to achieve success in translating sentences into various languages.
+ List any two real-life applications of Natural Language Processing.
+Two real-life applications of Natural Language Processing are as follows:
+
+Google Translate: Google Translate is one of the famous applications of Natural Language Processing. It helps convert written or spoken sentences into any language. Also, we can find the correct pronunciation and meaning of a word by using Google Translate. It uses advanced techniques of Natural Language Processing to achieve success in translating sentences into various languages.
+
+3. What are stop words?
+Stop words are said to be useless data for a search engine. Words such as articles, prepositions, etc. are considered stop words. There are stop words such as was, were, is, am, the, a, an, how, why, and many more. In Natural Language Processing, we eliminate the stop words to understand and analyze the meaning of a sentence. The removal of stop words is one of the most important tasks for search engines. Engineers design the algorithms of search engines in such a way that they ignore the use of stop words. This helps show the relevant search result for a query.
+
+4. What is NLTK?
+NLTK is a Python library, which stands for Natural Language Toolkit. We use NLTK to process data in human-spoken languages. NLTK allows us to apply techniques such as parsing, tokenization, lemmatization, stemming, and more to understand natural languages. It helps in categorizing text, parsing linguistic structure, analyzing documents, etc.
+
+A few of the libraries of the NLTK package that we often use in NLP are:
+
+SequentialBackoffTagger
+DefaultTagger
+UnigramTagger
+treebank
+wordnet
+FreqDist
+patterns
+RegexpTagger
+backoff_tagger
+UnigramTagger, BigramTagger, and TrigramTagger
+5. What is Syntactic Analysis?
+Syntactic analysis is a technique of analyzing sentences to extract meaning from them. Using syntactic analysis, a machine can analyze and understand the order of words arranged in a sentence. NLP employs grammar rules of a language that helps in the syntactic analysis of the combination and order of words in documents.
+
+6. What is Semantic Analysis?
+Semantic analysis helps make a machine understand the meaning of a text. It uses various algorithms for the interpretation of words in sentences. It also helps understand the structure of a sentence.
+
+Techniques used for semantic analysis are as given below:
+
+
+Named entity recognition: This is the process of information retrieval that helps identify entities such as the name of a person, organization, place, time, emotion, etc.
+Word sense disambiguation: It helps identify the sense of a word used in different sentences.
+Natural language generation: It is a process used by the software to convert structured data into human-spoken languages. By using NLG, organizations can automate content for custom reports.
+7. List the components of Natural Language Processing.
+Entity extraction: Entity extraction refers to the retrieval of information such as place, person, organization, etc. by the segmentation of a sentence. It helps in the recognition of an entity in a text.
+Syntactic analysis: Syntactic analysis helps draw the specific meaning of a text.
+Pragmatic analysis: To find useful information from a text, we implement pragmatic analysis techniques.
+Morphological and lexical analysis: It helps in explaining the structure of words by analyzing them through parsing.
+
+8. What is Latent Semantic Indexing (LSI)?
+Latent semantic indexing is a mathematical technique used to improve the accuracy of the information retrieval process. The design of LSI algorithms allows machines to detect the hidden (latent) correlation between semantics (words). To enhance information understanding, machines generate various concepts that associate with the words of a sentence.
+
+The technique used for information understanding is called singular value decomposition. It is generally used to handle static and unstructured data. The matrix obtained for singular value decomposition contains rows for words and columns for documents. This method is best suited to identify components and group them according to their types.
+
+9. What are Regular Expressions?
+A regular expression is used to match and tag words. It consists of a series of characters for matching strings.
+
+Suppose, if A and B are regular expressions, then the following are true for them:
+
+If {ɛ} is a regular language, then ɛ is a regular expression for it.
+If A and B are regular expressions, then A + B is also a regular expression within the language {A, B}.
+If A and B are regular expressions, then the concatenation of A and B (A.B) is a regular expression.
+If A is a regular expression, then A* (A occurring multiple times) is also a regular expression.
+
+10. What is Regular Grammar?
+Regular grammar is used to represent a regular language.
+
+Regular grammar comprises rules in the form of A -> a, A -> aB, and many more. The rules help detect and analyze strings by automated computation.
+
+Regular grammar consists of four tuples:
+
+‘N’ is used to represent the non-terminal set.
+‘∑’ represents the set of terminals.
+‘P’ stands for the set of productions.
+‘S € N’ denotes the start of non-terminal.
+Regular grammar is of 2 types:
+(a) Left Linear Grammar(LLG)
+
+(b) Right Linear Grammar(RLG)
+
+11. What is Parsing in the context of NLP?
+Parsing in NLP refers to the understanding of a sentence and its grammatical structure by a machine. Parsing allows the machine to understand the meaning of a word in a sentence and the grouping of words, phrases, nouns, subjects, and objects in a sentence. Parsing helps analyze the text or the document to extract useful insights from it.
+12. What is TF-IDF?
+TFIDF or Term Frequency-Inverse Document Frequency indicates the importance of a word in a set. It helps in information retrieval with numerical statistics. For a specific document, TF-IDF shows a frequency that helps identify the keywords in a document. The major use of TF-IDF in NLP is the extraction of useful information from crucial documents by statistical data. It is ideally used to classify and summarize the text in documents and filter out stop words.
+
+TF helps calculate the ratio of the frequency of a term in a document and the total number of terms. Whereas, IDF denotes the importance of the term in a document.
+
+The formula for calculating TF-IDF:
+
+TF(W) = (Frequency of W in a document)/(The total number of terms in the document)
+
+IDF(W) = log_e(The total number of documents/The number of documents having the term W)
+
+When TF*IDF is high, the frequency of the term is less and vice versa.
+
+13. Define the terminology in NLP.
+This is one of the most often asked NLP interview questions.
+
+The interpretation of Natural Language Processing depends on various factors, and they are:
+Weights and Vectors
+
+Use of TF-IDF for information retrieval
+Length (TF-IDF and doc)
+Google Word Vectors
+Word Vectors
+Structure of the Text
+
+POS tagging
+Head of the sentence
+Named Entity Recognition (NER)
+Sentiment Analysis
+
+Knowledge of the characteristics of sentiment
+Knowledge about entities and the common dictionary available for sentiment analysis
+Classification of Text
+
+Supervised learning algorithm
+Training set
+Validation set
+Test set
+Features of the text
+LDA
+
+14. Explain Dependency Parsing in NLP.
+Dependency parsing helps assign a syntactic structure to a sentence. Therefore, it is also called syntactic parsing. Dependency parsing is one of the critical tasks in NLP. It allows the analysis of a sentence using parsing algorithms. Also, by using the parse tree in dependency parsing, we can check the grammar and analyze the semantic structure of a sentence.
+
+For implementing dependency parsing, we use the spaCy package. It implements token properties to operate the dependency parse tree.
+
+15. What is Pragmatic Ambiguity?
+Pragmatic ambiguity refers to the multiple descriptions of a word or a sentence. An ambiguity arises when the meaning of the sentence is not clear. The words of the sentence may have different meanings. Therefore, in practical situations, it becomes a challenging task for a machine to understand the meaning of a sentence. This leads to pragmatic ambiguity.
+
+16. What are unigrams, bigrams, trigrams, and n-grams in NLP?
+When we parse a sentence one word at a time, then it is called a unigram. The sentence parsed two words at a time is a bigram.
+
+When the sentence is parsed three words at a time, then it is a trigram. Similarly, n-gram refers to the parsing of n words at a time.
+
+17. What are the steps involved in solving an NLP problem?
+Below are the steps involved in solving an NLP problem:
+
+Gather the text from the available dataset or by web scraping
+Apply stemming and lemmatization for text cleaning
+Apply feature engineering techniques
+Embed using word2vec
+Train the built model using neural networks or other Machine Learning techniques
+Evaluate the model’s performance
+Make appropriate changes in the model
+Deploy the model
+
+18. For more details
+Contact us @support@lakebrains.in and call us at +917728093689
+
+
